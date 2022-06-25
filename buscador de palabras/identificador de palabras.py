@@ -2,7 +2,7 @@ import csv
 import re
 
 
-frase = """ agg""".lower()
+frase = """ """.lower()
 frasex = re.sub("’", "", frase)
 frase2 = frasex.split(" ")
 archivo = open("bd2022.csv", encoding="utf8")
